@@ -9,9 +9,9 @@ let RandomNomiCognomi = [];
 
 
 for (let i = 1; i <=5; i++) {
-    let num = Math.floor(Math.random() * 5);
-    let numSecond =  Math.floor(Math.random() * 5);
-    RandomNomiCognomi.push ([Nomi[num] + "" + Cognomi[numSecond]]);
+    let indiceNomi = Math.floor(Math.random() * 5);
+    let indiceCognomi =  Math.floor(Math.random() * 5);
+    RandomNomiCognomi.push ([Nomi[indiceNomi] + "" + Cognomi[indiceCognomi]]);
 
 }
 
